@@ -6,7 +6,7 @@ import web.model.Car;
 import java.util.ArrayList;
 import java.util.List;
 @Component
-public class CarServises {
+public class CarServises implements CarServisesImpl {
     private static int carCount;
     private List<Car> cars;
     {
@@ -18,7 +18,9 @@ public class CarServises {
         cars.add(new Car(++carCount,"Lada", 2113));
         cars.add(new Car(++carCount,"Lada", 2114));
     }
-    public  List<Car> getCars(int count) {
+
+    @Override
+    public List<Car> getCars(int count) {
         return cars.stream().limit(count).toList();
     }
 }
