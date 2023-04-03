@@ -1,4 +1,4 @@
-package web.Servies;
+package web.servies;
 
 import org.springframework.stereotype.Component;
 import web.model.Car;
@@ -6,7 +6,7 @@ import web.model.Car;
 import java.util.ArrayList;
 import java.util.List;
 @Component
-public class CarServises implements CarServisesImpl {
+public class CarServiseImpl implements CarServise {
     private static int carCount;
     private List<Car> cars;
     {
@@ -21,6 +21,10 @@ public class CarServises implements CarServisesImpl {
 
     @Override
     public List<Car> getCars(int count) {
-        return cars.stream().limit(count).toList();
+        if (count >= 0) {
+            return cars.stream().limit(count).toList();
+        } else {
+            return cars;
+        }
     }
 }
