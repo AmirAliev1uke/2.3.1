@@ -1,7 +1,9 @@
-web\servies\CarServise.class
-web\controller\HelloController.class
+web\dao\UserDaoImp.class
+web\config\HibernateConfig.class
 web\config\AppInit.class
-web\model\Car.class
+web\servies\UserServiceImp.class
 web\config\WebConfig.class
-web\servies\CarServiseImpl.class
-web\controller\CarController.class
+web\dao\UserDao.class
+web\servies\UserService.class
+web\model\User.class
+web\controller\UsersController.class

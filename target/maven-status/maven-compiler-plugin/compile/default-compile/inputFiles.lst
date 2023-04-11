@@ -1,7 +1,9 @@
-C:\Users\Амир\Desktop\PP_2_2_2_spring-mvc\src\main\java\web\model\Car.java
-C:\Users\Амир\Desktop\PP_2_2_2_spring-mvc\src\main\java\web\config\WebConfig.java
-C:\Users\Амир\Desktop\PP_2_2_2_spring-mvc\src\main\java\web\controller\CarController.java
-C:\Users\Амир\Desktop\PP_2_2_2_spring-mvc\src\main\java\web\config\AppInit.java
-C:\Users\Амир\Desktop\PP_2_2_2_spring-mvc\src\main\java\web\servies\CarServiseImpl.java
-C:\Users\Амир\Desktop\PP_2_2_2_spring-mvc\src\main\java\web\controller\HelloController.java
-C:\Users\Амир\Desktop\PP_2_2_2_spring-mvc\src\main\java\web\servies\CarServise.java
+C:\Users\Амир\Desktop\PP_2_2_2_spring-mvc — копия\src\main\java\web\model\User.java
+C:\Users\Амир\Desktop\PP_2_2_2_spring-mvc — копия\src\main\java\web\servies\UserService.java
+C:\Users\Амир\Desktop\PP_2_2_2_spring-mvc — копия\src\main\java\web\config\AppInit.java
+C:\Users\Амир\Desktop\PP_2_2_2_spring-mvc — копия\src\main\java\web\dao\UserDao.java
+C:\Users\Амир\Desktop\PP_2_2_2_spring-mvc — копия\src\main\java\web\servies\UserServiceImp.java
+C:\Users\Амир\Desktop\PP_2_2_2_spring-mvc — копия\src\main\java\web\config\WebConfig.java
+C:\Users\Амир\Desktop\PP_2_2_2_spring-mvc — копия\src\main\java\web\controller\UsersController.java
+C:\Users\Амир\Desktop\PP_2_2_2_spring-mvc — копия\src\main\java\web\dao\UserDaoImp.java
+C:\Users\Амир\Desktop\PP_2_2_2_spring-mvc — копия\src\main\java\web\config\HibernateConfig.java
