@@ -8,13 +8,12 @@ import javax.persistence.PersistenceContext;
 import java.util.List;
 @Repository
 public class UserDAOImpl implements UserDAO{
-    @PersistenceContext
-    private EntityManager entityManager;
 
-    public UserDAOImpl(EntityManager entityManager) {
+    private EntityManager entityManager;
+    @PersistenceContext
+    public void setEntityManager(EntityManager entityManager) {
         this.entityManager = entityManager;
     }
-
 
     @Override
     public void add(User user) {

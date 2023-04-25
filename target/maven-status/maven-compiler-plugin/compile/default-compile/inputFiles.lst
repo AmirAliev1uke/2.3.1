@@ -1,9 +1,9 @@
-C:\Users\Амир\Desktop\PP_2_2_2_spring-mvc — копия\src\main\java\web\model\User.java
-C:\Users\Амир\Desktop\PP_2_2_2_spring-mvc — копия\src\main\java\web\servies\UserService.java
-C:\Users\Амир\Desktop\PP_2_2_2_spring-mvc — копия\src\main\java\web\config\AppInit.java
-C:\Users\Амир\Desktop\PP_2_2_2_spring-mvc — копия\src\main\java\web\dao\UserDao.java
-C:\Users\Амир\Desktop\PP_2_2_2_spring-mvc — копия\src\main\java\web\servies\UserServiceImp.java
-C:\Users\Амир\Desktop\PP_2_2_2_spring-mvc — копия\src\main\java\web\config\WebConfig.java
-C:\Users\Амир\Desktop\PP_2_2_2_spring-mvc — копия\src\main\java\web\controller\UsersController.java
-C:\Users\Амир\Desktop\PP_2_2_2_spring-mvc — копия\src\main\java\web\dao\UserDaoImp.java
-C:\Users\Амир\Desktop\PP_2_2_2_spring-mvc — копия\src\main\java\web\config\HibernateConfig.java
+C:\Users\Амир\Desktop\2.3.1\src\main\java\web\config\AppInit.java
+C:\Users\Амир\Desktop\2.3.1\src\main\java\web\dao\UserDAOImpl.java
+C:\Users\Амир\Desktop\2.3.1\src\main\java\web\config\HibernateConfig.java
+C:\Users\Амир\Desktop\2.3.1\src\main\java\web\service\UserServiceImpl.java
+C:\Users\Амир\Desktop\2.3.1\src\main\java\web\controller\UsersController.java
+C:\Users\Амир\Desktop\2.3.1\src\main\java\web\service\UserService.java
+C:\Users\Амир\Desktop\2.3.1\src\main\java\web\model\User.java
+C:\Users\Амир\Desktop\2.3.1\src\main\java\web\dao\UserDAO.java
+C:\Users\Амир\Desktop\2.3.1\src\main\java\web\config\WebConfig.java
