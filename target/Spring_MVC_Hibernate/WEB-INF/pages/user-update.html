@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<meta charset="UTF-8">
+<title>Create user</title>
+</head>
+<body>
+<form th:method="PATCH" th:action="@{/user-update/{id}(id=${user.getId()})}" th:object="${user}">
+  <label for="id">Id</label>
+  <input readonly type="number" th:field="*{id}" id="id" placeholder="id">
+  <br/>
+  <br/>
+  <label for="firstName">Name</label>
+  <input type="text" th:field="*{name}" id="firstName" placeholder="Name">
+  <br/>
+  <br/>
+  <label for="lastName">LastName</label>
+  <input type="text" th:field="*{lastName}" id="lastName" placeholder="lastName">
+  <br/>
+  <br/>
+  <label for="lastName">Email</label>
+  <input type="text" th:field="*{email}" id="Email" placeholder="email">
+  <br/>
+  <br/>
+  <input type="submit" value="Update User">
+</form>
+<br/>
+<form th:method="DELETE" th:action="@{/{id}(id=${user.getId()})}">
+  <input type="submit" value="Delete User"/>
+</form>
+</body>
+</html>
