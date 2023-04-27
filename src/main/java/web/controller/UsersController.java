@@ -36,9 +36,9 @@ public class UsersController {
     }
     @DeleteMapping("/{id}")
     public String deleteUser(@PathVariable("id") Long id) {
-    userService.deleteUser(id);
-    return "redirect:/users";
-}
+        userService.deleteUser(id);
+        return "redirect:/users";
+    }
     @GetMapping("/user-update/{id}")
     public String updateUserForm(@PathVariable("id") Long id,Model model) {
         User user = userService.getUserById(id);
