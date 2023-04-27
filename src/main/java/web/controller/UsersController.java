@@ -10,17 +10,8 @@ import java.util.List;
 
 
 @Controller
-//@RequestMapping("/users")
+@RequestMapping()
 public class UsersController {
-//    @GetMapping
-//    public String printWelcome(ModelMap model) {
-//        List<String> messages = new ArrayList<>();
-//        messages.add("Hello!");
-//        messages.add("I'm Spring MVC application");
-//        messages.add("5.2.0 version by sep'19 ");
-//        model.addAttribute("messages", messages);
-//        return "userlist";
-//    }
     private final UserService userService;
 
     public UsersController(UserService userService) {
@@ -43,19 +34,19 @@ public class UsersController {
         userService.add(user);
         return "redirect:/users";
     }
-    @GetMapping("user-delete/{id}")
+    @DeleteMapping("/{id}")
     public String deleteUser(@PathVariable("id") Long id) {
-        userService.deleteUser(id);
-        return "redirect:/users";
-    }
+    userService.deleteUser(id);
+    return "redirect:/users";
+}
     @GetMapping("/user-update/{id}")
     public String updateUserForm(@PathVariable("id") Long id,Model model) {
         User user = userService.getUserById(id);
         model.addAttribute("user",user);
         return "/user-update";
     }
-    @PostMapping("/user-update")
-    public String updateUser(User user) {
+    @PatchMapping("/user-update/{id}")
+    public String updateUser(@ModelAttribute("user") User user) {
         userService.updateUser(user);
         return "redirect:/users";
     }
